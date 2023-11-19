@@ -9,6 +9,7 @@ export const ParticlesComponents = () => {
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       particles: {
+        text:"data",
         color: { value: "#fff" },
         move: {
           direction: "bottom",
@@ -30,7 +31,7 @@ export const ParticlesComponents = () => {
           type: "circle",
         },
         size: {
-          value: { min: 4, max: 8 }, // let's randomize the particles size a bit
+          value: { min: 1, max: 3 }, // let's randomize the particles size a bit
         },
         wobble: {
           enable: true,

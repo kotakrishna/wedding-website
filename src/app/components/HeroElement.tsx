@@ -54,18 +54,8 @@ function HeroElement() {
   return (
     <>
       <section className="">
-        <div className="container text-center  flex flex-col justify-center mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between lg:pb-0 lg:pt-2">
-          {/* <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"></div> */}
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:text-center">
-            <h1 className="text-5xl font-bold  sm:text-6xl">
-              We invite you to Our
-              <span className="bg-gradient-to-br from-blue-600 to-red-500 bg-clip-text text-transparent">
-                {" "}
-                Celebration
-              </span>
-            </h1>
-          </div>
-        </div>
+       
+      
         <div className="container flex flex-col justify-center mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-center lg:pb-0 lg:pt-2">
           <BoxContainer title="Bride" />
           <BoxContainer title="Groom" />

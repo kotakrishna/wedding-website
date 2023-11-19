@@ -1,11 +1,16 @@
 // import Particles from "react-particles";
 import ParticlesComponents from "./components/Partciles";
-import HeroElement from "./components/HeroElement";
+import Gallery from "./components/Gallery";
+import Title from "./components/Title";
+import Events from "./components/Events";
+// import HeroElement from "./compone";
 export default function Home() {
   return (
     <>
       {/* <Header /> */}
-      <HeroElement />
+      <Title />
+      <Gallery />
+      <Events/>
       <ParticlesComponents />
       {/* <ImagesLayout/> */}
     </>
